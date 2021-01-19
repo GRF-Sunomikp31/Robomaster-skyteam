@@ -12,4 +12,3 @@
 理解Python函数的概念与相关用法。
 掌握Python类与对象用法，理解Python面向对象的特性。
 了解Python处理文件与操作文件系统过程
-# 二、为什么windows下不能查看linux(ubuntu)的磁盘分区？
