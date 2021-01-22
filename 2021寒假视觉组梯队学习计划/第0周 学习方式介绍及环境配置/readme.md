@@ -25,7 +25,7 @@
 
 然后选择合适的版本下载：
 
-![QQ截图20210122100257](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122100257.png)
+![QQ截图20210122100257](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/1.png)
 
 后面下载好了直接安装，下面这个选项记得添加一下，其他的暴力安装即可，另外安装路径C盘非必须。
 
