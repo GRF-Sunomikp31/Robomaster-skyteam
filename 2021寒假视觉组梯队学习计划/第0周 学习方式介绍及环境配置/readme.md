@@ -29,17 +29,17 @@
 
 后面下载好了直接安装，下面这个选项记得添加一下，其他的暴力安装即可，另外安装路径C盘非必须。
 
-![QQ截图20210122100724](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122100724.png)
+![QQ截图20210122100724](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/2.png)
 
 ### 测试
 
 CMD+R进入windows命令行交互工具，输入cmd，进入后，输入conda list 显示很多用conda安装的包即可表示anaconda安装成功。
 
-![QQ截图20210122101200](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122101200.png)
+![QQ截图20210122101200](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/3.png)
 
 或者 使用 conda --version查看conda的版本
 
-![QQ截图20210122101619](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122101619.png)
+![QQ截图20210122101619](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/4.png)
 
 ## Cuda(选)
 
@@ -53,7 +53,7 @@ Cuda最新版本的是11.2，但是现在pytorch还不支持这个版本，因�
 
 具体选择如下：
 
-![](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122103408.png)
+![](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/5.png)
 
 下载好后直接安装即可。
 
@@ -61,11 +61,11 @@ Cuda最新版本的是11.2，但是现在pytorch还不支持这个版本，因�
 
 安装好后，在安装目录下能找到 nvcc 这个程序（Cuda软件的编辑器）
 
-![QQ截图20210122103741](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122103741.png)
+![QQ截图20210122103741](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/6.png)
 
 进入到cmd下，输出nvcc -V输出内容如下，即证明安装成功
 
-![QQ截图20210122103939](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122103939.png)
+![QQ截图20210122103939](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/7.png)
 
 ## Pytorch
 
@@ -75,15 +75,15 @@ Cuda最新版本的是11.2，但是现在pytorch还不支持这个版本，因�
 
 选择配置，复制命令行
 
-![QQ截图20210122104732](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122104732.png)
+![QQ截图20210122104732](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/8.png)
 
 **管理员身份打开cmd**
 
-![QQ截图20210122104818](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122104818.png)
+![QQ截图20210122104818](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/9.png)
 
 复制命令直接安装
 
-![QQ截图20210122104931](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122104931.png)
+![QQ截图20210122104931](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/10.png)
 
 ## Pychram
 
@@ -93,7 +93,7 @@ Cuda最新版本的是11.2，但是现在pytorch还不支持这个版本，因�
 
 选择free社区版下载
 
-![QQ截图20210122105242](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122105242.png)
+![QQ截图20210122105242](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/11.png)
 
 然后直接安装即可，这里要注意的时**pycharm一定要装到C盘**（固态），装到机械硬盘上会非常卡！
 
@@ -103,7 +103,7 @@ Cuda最新版本的是11.2，但是现在pytorch还不支持这个版本，因�
 
 file-new project  然后按照下面提示将conda安装的python.exe路径导入即可
 
-![QQ截图20210122111721](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122111721.png)
+![QQ截图20210122111721](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/12.png)
 
 测试代码
 
@@ -115,7 +115,7 @@ print('gpu:',torch.cuda.is_available())
 
 正常运行输出即可：
 
-![QQ截图20210122113102](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122113102.png)
+![QQ截图20210122113102](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/13.png)
 
 ## Opencv
 
@@ -123,7 +123,7 @@ print('gpu:',torch.cuda.is_available())
 
 选择file-setting-Project：pythonProject -Python：Interpreter-conda的那个python环境-再点击+号搜索opencv安装即可
 
-![QQ截图20210122105736](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122105736.png)
+![QQ截图20210122105736](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/14.png)
 
 ### 测试
 
@@ -151,7 +151,7 @@ cv.destroyAllWindows()
 
 运行程序，打开摄像头，即证明安装成功;
 
-![QQ截图20210122110449](C:\Users\lenovo\Desktop\视觉组学习计划\环境配置\picture\QQ截图20210122110449.png)
+![QQ截图20210122110449](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/%E7%AC%AC0%E5%91%A8%20%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/Img/15.png)
 
 ## 其他工具
 
