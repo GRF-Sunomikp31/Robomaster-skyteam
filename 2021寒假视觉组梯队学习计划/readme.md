@@ -60,6 +60,8 @@
 - 打卡事例：https://blog.csdn.net/qq_44847636/article/details/112861317 （写的比较烂==）
 
   博文应该包含当前学习内容作业题、笔记（非必须）、思考题（非必须）。
+  
+- 使用github记录笔记教程：https://github.com/Folsiti/GitHubUse/blob/main/README.md  感谢王钰铮同学@Folsiti。
 
 ## 其他说明
 
