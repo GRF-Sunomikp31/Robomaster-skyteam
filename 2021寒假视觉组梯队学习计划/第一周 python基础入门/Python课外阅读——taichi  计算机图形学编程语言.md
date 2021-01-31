@@ -36,7 +36,7 @@ A **physics engine** is [computer software](https://en.wikipedia.org/wiki/Comput
  pip install taichi
 ```
 
-![20210131133157](C:\Users\lenovo\Desktop\taichi\20210131133157.png)
+![20210131133157](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/Img/41.png)
 
 即可完成安装，然后就可以 import taichi as ti ；
 
@@ -48,7 +48,7 @@ Demo1
 
 ​		效果图：（taichi的demo基本上都是动态的，这里我偷懒了:D）
 
-![image-20210131133751202](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210131133751202.png)
+![image-20210131133751202](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/Img/42.png)
 
 Code：
 
@@ -89,7 +89,7 @@ Demo2
 
 ​		效果图：
 
-![image-20210131134412416](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210131134412416.png)
+![image-20210131134412416](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/Img/43.png)
 
 ​	Code：
 
@@ -199,7 +199,7 @@ Demo3
 
 ​		效果图：
 
-![image-20210131134634348](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210131134634348.png)
+![image-20210131134634348](https://github.com/GRF-Sunomikp31/Robomaster-skyteam/blob/main/2021%E5%AF%92%E5%81%87%E8%A7%86%E8%A7%89%E7%BB%84%E6%A2%AF%E9%98%9F%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/Img/44.png)
 
 ​		Code：
 
