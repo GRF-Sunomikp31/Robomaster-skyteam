@@ -1,0 +1,13 @@
+local_costmap:
+   global_frame: /odom
+   robot_base_frame: /base_footprint
+   update_frequency: 15.0
+   publish_frequency: 13.0 #确定代价地图发布可视化信息的速率（以Hz为单位）
+   static_map: false       #不希望局部使用静态地图
+   rolling_window: true    #设置为true意味着当机器人移动时，保持机器人在本地代价地图中心
+   width: 2.0
+   height: 2.0
+   resolution: 0.05       #设置本地代价地图的宽度（米），高度（米）和分辨率（米/单元格）
+   transform_tolerance: 0.5
+   cost_scaling_factor: 5
+   inflation_radius: 0.25

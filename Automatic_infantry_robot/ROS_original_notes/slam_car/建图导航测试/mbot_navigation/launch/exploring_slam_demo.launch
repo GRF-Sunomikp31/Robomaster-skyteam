@@ -1,0 +1,8 @@
+<launch>
+
+    <include file="$(find my_slam_gmapping)/launch/my_slam_gmapping.launch"/>
+
+    <!-- 运行move_base节点 -->
+    <include file="$(find mbot_navigation)/launch/move_base.launch" />
+
+</launch>

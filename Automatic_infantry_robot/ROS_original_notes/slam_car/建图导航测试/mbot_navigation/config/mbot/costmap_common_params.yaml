@@ -1,0 +1,9 @@
+obstacle_range: 2.5   #在这里，我们把它设置在2.5米，这意味着机器人只会更新其地图包含距离移动基座2.5米以内的障碍物的信息
+raytrace_range: 3.0   #将其设置为3.0米，这意味着机器人将尝试清除3米外的空间
+footprint: [[0.10, 0.10], [0.10, -0.10], [-0.10, -0.10], [-0.10, 0.10]]
+inflation_radius: 0.55 #膨胀半径应设定为在代价地图的与障碍物保持安全的最大距离
+transform_tolerance: 0.5
+
+observation_sources: scan #传感器源参数定义把信息传递给代价地图的传感器列表,scan 列表名
+scan: {sensor_frame: laser_link,data_type: LaserScan, topic: /scan, marking: true, clearing: true, expected_update_rate: 0}
+map_type: costmap

@@ -1,0 +1,20 @@
+<launch>
+
+    <!-- 启动机器人底盘控制节点 -->
+    <node pkg="mick_bringup" type="mick_bringup_test0" name="mick_bringup_test0" output="screen" />
+     <!-- tf变化base_link和laser -->
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.0 0 0.5 -3.1415926 0 0 base_link laser 50" />
+    <!-- 运行joint_state_publisher节点，发布机器人的关节状态  -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />  
+    <!-- 运行robot_state_publisher节点，发布tf  -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="state_publisher">
+        <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+
+    <!-- 运行激光雷达驱动 -->
+    <include file="$(find robot_bringup)/launch/rplidar.launch" />
+    <!-- gmapping，需要自己开发rviz -->
+    <include file="$(find my_slam_gmapping)/launch/my_slam_gmapping.launch" />
+
+</launch>
+
