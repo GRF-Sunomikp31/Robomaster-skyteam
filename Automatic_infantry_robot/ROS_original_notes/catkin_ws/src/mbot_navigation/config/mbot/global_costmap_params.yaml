@@ -1,0 +1,10 @@
+# 用于存储特定于全局代价地图的配置选项
+global_costmap:
+   global_frame: /map
+   robot_base_frame: /base_footprint
+   update_frequency: 15.0 #参数决定了代价地图更新的频率（以Hz为单位）
+   publish_frequency: 10.0
+   static_map: true      #如果您没有使用现有的地图或地图服务器，请将static_map参数设置为false
+   transform_tolerance: 0.5
+   cost_scaling_factor: 2.58
+   inflation_radius: 1.75

@@ -1,0 +1,16 @@
+<launch>
+
+    <!-- Run the map server -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find mbot_navigation)/maps/map.pgm 0.025"/>
+    <!-- 启动AMCL节点 -->
+    <include file="$(find mbot_navigation)/launch/amcl.launch" />
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+        <rosparam file="$(find mbot_navigation)/config/mbot/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find mbot_navigation)/config/mbot/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find mbot_navigation)/config/mbot/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find mbot_navigation)/config/mbot/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find mbot_navigation)/config/mbot/base_local_planner_params.yaml" command="load" />
+    </node>
+    
+</launch>
