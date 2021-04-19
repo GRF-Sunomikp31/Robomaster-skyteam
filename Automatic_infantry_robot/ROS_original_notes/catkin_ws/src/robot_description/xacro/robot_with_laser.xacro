@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot name="robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="$(find robot_description)/xacro/robot_base.xacro" />
+    <xacro:include filename="$(find robot_description)/xacro/sensors/lidar.xacro" />
+
+    <xacro:property name="laser_offset_x" value="0.0" />
+    <xacro:property name="laser_offset_y" value="0.0" />
+    <xacro:property name="laser_offset_z" value="0.082" />
+
+    <robot_base/>
+
+    <!-- laser -->
+    <joint name="laser_joint" type="fixed">
+        <origin xyz="${laser_offset_x} ${laser_offset_y} ${laser_offset_z}" rpy="0 0 0" />
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+    </joint>
+
+    <xacro:rplidar prefix="laser"/>
+
+</robot>
+
+
