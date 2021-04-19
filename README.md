@@ -23,4 +23,4 @@
 
 ## 联系方式
 
-如果您有什么问题，欢迎通过邮件联系我，[2393787884@qq.com](mailto:2393787884@qq.com)。
+如果您有什么问题，欢迎通过邮件联系我，[lidong.gipsy@foxmail.com](lidong.gipsy@foxmail.com)。
