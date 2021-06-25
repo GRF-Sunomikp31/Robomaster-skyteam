@@ -23,4 +23,4 @@
 
 ## 联系方式
 
-如果您有什么问题，欢迎通过邮件联系我，[lidong.gipsy@foxmail.com](lidong.gipsy@foxmail.com)。
+如果您有什么问题，欢迎通过邮件联系我，[lidong8421bcd@gmail.com)。
