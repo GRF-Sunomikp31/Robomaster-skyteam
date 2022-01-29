@@ -1,0 +1,18 @@
+1、
+【腾讯文档】西北工业大学Firefly技术方案-ICRA-Robomaster2020
+https://docs.qq.com/pdf/DVmhHWG51WHlib0l6
+
+2、
+感知：https://github.com/nwpu-v5-team/ICRA-RoboMaster-2020-Perception
+导航：https://github.com/nwpu-v5-team/ICRA-RoboMaster-2020-Planning，加了一个简单的协同规划
+决策：https://github.com/nwpu-v5-team/ICRA-RoboMaster-2020-Strategy，开始入手强化学习
+模拟器：https://github.com/nwpu-v5-team/ICRA-Firefly-Emulator
+
+3、
+http://www.joca.cn/CN/10.11772/j.issn.1001-9081.2020081162
+
+去年同济没参赛，我就贡献个这个大家参考下吧
+
+4、
+【腾讯文档】西安交通大学 笃行战队 人工智能挑战赛技术方案
+https://docs.qq.com/pdf/DU2lXdVBYYXVDbFho
